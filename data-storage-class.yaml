@@ -7,5 +7,5 @@ parameters:
   type: gp2
   iopsPerGB: "10"
   fsType: ext4
-reclaimPolicy: Retain
+reclaimPolicy: Delete
 allowVolumeExpansion: true
